@@ -1,0 +1,269 @@
+2021/12/03 19:48:25 BSC node connected: wss://apis.ankr.com/wss/f900f648fc1b4863a187019729056694/46656517d979f03a7491d00c05f6bfdd/binance/full/main
+2021/12/03 19:48:26 BSC: subscribed to [0x8ebC361536094fD5B4FFB8521E31900614C9F55D]
+2021/12/03 19:48:27 Konstellation: RPC Websocket connection established
+2021/12/03 19:48:27 Konstellation: Subscribed to tm.event='Tx' AND transfer.recipient = 'darc16cmu7rvtzrxqxtv84z6u9qgl2272fak8xxaexr'
+2021/12/03 19:48:27 ****************** Portal server started
+2021/12/03 19:48:30 ====== Get POST transaction request ======
+2021/12/03 19:48:30 POST request: {FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 FromNetwork:bsc ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 ToNetwork:knstl Amount:1e-05}
+2021/12/03 19:48:30 knstl unit decimal amount: 1000000
+2021/12/03 19:48:30 User transaction decimal amount: 0.00001
+2021/12/03 19:48:30 User transaction total knstl amount: 10
+2021/12/03 19:48:30 user transaction destination network knstl total amount: 10
+2021/12/03 19:48:30 knstl unit decimal amount: 1000000
+2021/12/03 19:48:30 User transaction decimal amount: 0
+2021/12/03 19:48:30 User transaction total knstl amount: 0
+2021/12/03 19:48:30 user transaction destination network knstl fee amount: 0
+2021/12/03 19:48:30 Checking if POST request is old request failed or in the process
+2021/12/03 19:48:30 Found old POST request
+2021/12/03 19:48:30 POST request 3 minutes timeout started. started time: 2021-12-03 18:59:06.825136 +0900 KST
+2021/12/03 19:48:30 expirated time for 3 minutes timeout: 2021-12-03 19:09:06.825136 +0900 KST remained time: -39.398729816666666 minutes
+2021/12/03 19:48:30 3 minutes timeout passed
+2021/12/03 19:48:30 Update old result {ID:ObjectID("61a9ea6ace7ab6935ee6b947") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 18:59:06.825136 +0900 KST UpdatedAt:2021-12-03 18:59:06.825136 +0900 KST TxTryCount:0} completed status to true. Because 3 minute timeout passed
+2021/12/03 19:48:30 Preparing requeset insertion into DB
+2021/12/03 19:48:30 ====== POST request is inserted in DB: {ID:ObjectID("61a9f5fe61343df8c4bb5491") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 19:48:30.754718 +0900 KST UpdatedAt:2021-12-03 19:48:30.754718 +0900 KST TxTryCount:0} ======
+ 
+2021/12/03 19:50:27 *********** queue front target: &{ID:ObjectID("61a9f5fe61343df8c4bb5491") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 19:48:30.754718 +0900 KST UpdatedAt:2021-12-03 19:48:30.754718 +0900 KST TxTryCount:0}
+2021/12/03 19:50:27 *********** Unfinished tx: &{ObjectID("61a9f5fe61343df8c4bb5491") 0xB07EE31C906A57731D76dAA7902FDBF833abaB27 darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 bsc  knstl  1e-05 0 false false false 2021-12-03 19:48:30.754718 +0900 KST 2021-12-03 19:48:30.754718 +0900 KST 1}
+2021/12/03 19:50:55 amount raw:  10000000000000
+2021/12/03 19:50:55 Bsc amount float conversion:  10000000000000
+2021/12/03 19:50:55 Bsc amount decimal conversion:  10000000000000
+2021/12/03 19:50:55 Bsc basic unit amount decimal conversion:  1000000000000000000
+2021/12/03 19:50:55 ###### Get source bsc transaction data: {0x8ebC361536094fD5B4FFB8521E31900614C9F55D [0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef 0x000000000000000000000000b07ee31c906a57731d76daa7902fdbf833abab27 0x000000000000000000000000ef71e5575adbfdbc796c626ac3202a3d60803f48] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 24 78 114 160 0] 13157051 0xfa7872988b029cdd852add00802c9fbebe8ae286eccee996cfe478171e24ff86 315 0x1b07d24c390b8616b25c662d287e33a089e246d8f325e0a91ad9243958bba425 704 false} , amount: 0.00001 ######
+2021/12/03 19:52:27 *********** queue front target: &{ID:ObjectID("61a9f5fe61343df8c4bb5491") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 19:48:30.754718 +0900 KST UpdatedAt:2021-12-03 19:48:30.754718 +0900 KST TxTryCount:1}
+2021/12/03 19:52:27 *********** bsc tx status: {Address:0x8ebC361536094fD5B4FFB8521E31900614C9F55D Topics:[0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef 0x000000000000000000000000b07ee31c906a57731d76daa7902fdbf833abab27 0x000000000000000000000000ef71e5575adbfdbc796c626ac3202a3d60803f48] Data:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 24 78 114 160 0] BlockNumber:13157051 TxHash:0xfa7872988b029cdd852add00802c9fbebe8ae286eccee996cfe478171e24ff86 TxIndex:315 BlockHash:0x1b07d24c390b8616b25c662d287e33a089e246d8f325e0a91ad9243958bba425 Index:704 Removed:false}
+2021/12/03 19:52:27 amount raw:  10000000000000
+2021/12/03 19:52:27 Bsc amount float conversion:  10000000000000
+2021/12/03 19:52:27 Bsc amount decimal conversion:  10000000000000
+2021/12/03 19:52:27 Bsc basic unit amount decimal conversion:  1000000000000000000
+2021/12/03 19:52:27 ********** amountBscTransaction 0.00001 targetAmount 0.00001 equal: true
+2021/12/03 19:52:27 ###### Get source bsc transaction data: &{Address:0x8ebC361536094fD5B4FFB8521E31900614C9F55D Topics:[0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef 0x000000000000000000000000b07ee31c906a57731d76daa7902fdbf833abab27 0x000000000000000000000000ef71e5575adbfdbc796c626ac3202a3d60803f48] Data:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 24 78 114 160 0] BlockNumber:13157051 TxHash:0xfa7872988b029cdd852add00802c9fbebe8ae286eccee996cfe478171e24ff86 TxIndex:315 BlockHash:0x1b07d24c390b8616b25c662d287e33a089e246d8f325e0a91ad9243958bba425 Index:704 Removed:false} ######
+2021/12/03 19:52:27 amount raw:  10000000000000
+2021/12/03 19:52:27 Bsc amount float conversion:  10000000000000
+2021/12/03 19:52:27 Bsc amount decimal conversion:  10000000000000
+2021/12/03 19:52:27 Bsc basic unit amount decimal conversion:  1000000000000000000
+2021/12/03 19:52:27 from address:  0xB07EE31C906A57731D76dAA7902FDBF833abaB27
+2021/12/03 19:52:27 Checking if address in POST request is blacklist address
+2021/12/03 19:52:27 Bsc transaction data to search in the DB: map[amount:0.00001 created_at:2021-12-03 19:48:30.754718 +0900 KST destination_network:knstl destination_network_completed:false from_address:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 source_network:bsc source_network_completed:false to_address:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6]
+2021/12/03 19:52:27 amount in DB: 1e-05
+2021/12/03 19:52:27 Bsc transaction POST request is found in DB: {ID:ObjectID("61a9f5fe61343df8c4bb5491") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 19:48:30.754718 +0900 KST UpdatedAt:2021-12-03 19:48:30.754718 +0900 KST TxTryCount:0}
+2021/12/03 19:52:27 Bsc transaction data is updated in the DB: {ID:ObjectID("61a9f5fe61343df8c4bb5491") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 19:48:30.754718 +0900 KST UpdatedAt:2021-12-03 19:48:30.754718 +0900 KST TxTryCount:0}
+2021/12/03 19:52:27 The bsc source network operation is finished. $$$$$$
+2021/12/03 19:52:27 Knstl token conversion start. Destination network operation. $$$$$$
+2021/12/03 19:52:27 Knstl toaddress darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 Knstl AccAddressFromBech with toaddress C9B59A1831041B38F3A10B2CCD2C50685C97A77F
+2021/12/03 19:52:27 Knstl swapAddr(KNSTL_CORPORATE_ADDR) darc16cmu7rvtzrxqxtv84z6u9qgl2272fak8xxaexr Knstl AccAddressFromBech with swapAddr D637CF0D8B10CC032D87A8B5C2811F52BCA4F6C7
+2021/12/03 19:52:28 knstlGrpcConn node3.konstellation.tech:9090 is connected
+2021/12/03 19:52:28 knstl unit decimal amount: 1000000
+2021/12/03 19:52:28 User transaction decimal amount: 0.00001
+2021/12/03 19:52:28 User transaction total knstl amount: 10
+2021/12/03 19:52:28 user transaction total knstl amount: 10
+2021/12/03 19:52:28 Knstl tx msg: from_address:"darc16cmu7rvtzrxqxtv84z6u9qgl2272fak8xxaexr" to_address:"darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6" amount:<denom:"udarc" amount:"10" > 
+2021/12/03 19:52:28 feepayer: D637CF0D8B10CC032D87A8B5C2811F52BCA4F6C7
+2021/12/03 19:52:28 fee: 1udarc
+2021/12/03 19:52:29 Knstl transaction response: {Code:0 Data: Log:[] Codespace: Hash:1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89}
+2021/12/03 19:52:29 Start knstl transaction confirmation check
+2021/12/03 19:52:29 knstlTxUrl: http://node3.konstellation.tech:26657/tx?hash=0x1af7cb6bf7bd05324a187a564a6209859377561effbddbc152afde5138610b89
+2021/12/03 19:52:30 KnstlResult: map[error:map[code:-32603 data:tx (1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 19:52:30 knstlTxUrl: http://node3.konstellation.tech:26657/tx?hash=0x1af7cb6bf7bd05324a187a564a6209859377561effbddbc152afde5138610b89
+2021/12/03 19:52:30 KnstlResult: map[error:map[code:-32603 data:tx (1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 19:52:30 knstlTxUrl: http://node3.konstellation.tech:26657/tx?hash=0x1af7cb6bf7bd05324a187a564a6209859377561effbddbc152afde5138610b89
+2021/12/03 19:52:30 KnstlResult: map[error:map[code:-32603 data:tx (1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 19:52:30 knstlTxUrl: http://node3.konstellation.tech:26657/tx?hash=0x1af7cb6bf7bd05324a187a564a6209859377561effbddbc152afde5138610b89
+2021/12/03 19:52:31 KnstlResult: map[error:map[code:-32603 data:tx (1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 19:52:31 knstlTxUrl: http://node3.konstellation.tech:26657/tx?hash=0x1af7cb6bf7bd05324a187a564a6209859377561effbddbc152afde5138610b89
+2021/12/03 19:52:31 KnstlResult: map[error:map[code:-32603 data:tx (1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 19:52:31 knstlTxUrl: http://node3.konstellation.tech:26657/tx?hash=0x1af7cb6bf7bd05324a187a564a6209859377561effbddbc152afde5138610b89
+2021/12/03 19:52:31 KnstlResult: map[error:map[code:-32603 data:tx (1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 19:52:31 knstlTxUrl: http://node3.konstellation.tech:26657/tx?hash=0x1af7cb6bf7bd05324a187a564a6209859377561effbddbc152afde5138610b89
+2021/12/03 19:52:32 KnstlResult: map[error:map[code:-32603 data:tx (1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 19:52:32 knstlTxUrl: http://node3.konstellation.tech:26657/tx?hash=0x1af7cb6bf7bd05324a187a564a6209859377561effbddbc152afde5138610b89
+2021/12/03 19:52:32 KnstlResult: map[error:map[code:-32603 data:tx (1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 19:52:32 knstlTxUrl: http://node3.konstellation.tech:26657/tx?hash=0x1af7cb6bf7bd05324a187a564a6209859377561effbddbc152afde5138610b89
+2021/12/03 19:52:32 KnstlResult: map[id:-1 jsonrpc:2.0 result:map[hash:1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89 height:854554 index:0 tx:CooBCocBChwvY29zbW9zLmJhbmsudjFiZXRhMS5Nc2dTZW5kEmcKK2RhcmMxNmNtdTdydnR6cnhxeHR2ODR6NnU5cWdsMjI3MmZhazh4eGFleHISK2RhcmMxZXg2ZTV4cDNxc2RuM3VhcHB2a3Y2dHpzZHB3ZjBmbWxwYWhmZzYaCwoFdWRhcmMSAjEwEmQKUApGCh8vY29zbW9zLmNyeXB0by5zZWNwMjU2azEuUHViS2V5EiMKIQIxdJQJoNlaMMMcJgOLMRF0u19rLfgXHCbRZhZSVc/yOhIECgIIARh/EhAKCgoFdWRhcmMSATEQ4MUIGkCvfNRBf8xXPfF5hl3zANUd8Y4Pm032hb8/79D93bUNjldL+8IukhW29/vZpEypaXgQwo6L/HJ+5b4Igrm5rfCO tx_result:map[code:0 codespace: data:CgYKBHNlbmQ= events:[map[attributes:[map[index:true key:cmVjaXBpZW50 value:ZGFyYzE3eHBmdmFrbTJhbWc5NjJ5bHM2Zjg0ejNrZWxsOGM1bDBjaDN4Mg==] map[index:true key:c2VuZGVy value:ZGFyYzE2Y211N3J2dHpyeHF4dHY4NHo2dTlxZ2wyMjcyZmFrOHh4YWV4cg==] map[index:true key:YW1vdW50 value:MXVkYXJj]] type:transfer] map[attributes:[map[index:true key:c2VuZGVy value:ZGFyYzE2Y211N3J2dHpyeHF4dHY4NHo2dTlxZ2wyMjcyZmFrOHh4YWV4cg==]] type:message] map[attributes:[map[index:true key:YWN0aW9u value:c2VuZA==]] type:message] map[attributes:[map[index:true key:cmVjaXBpZW50 value:ZGFyYzFleDZlNXhwM3FzZG4zdWFwcHZrdjZ0enNkcHdmMGZtbHBhaGZnNg==] map[index:true key:c2VuZGVy value:ZGFyYzE2Y211N3J2dHpyeHF4dHY4NHo2dTlxZ2wyMjcyZmFrOHh4YWV4cg==] map[index:true key:YW1vdW50 value:MTB1ZGFyYw==]] type:transfer] map[attributes:[map[index:true key:c2VuZGVy value:ZGFyYzE2Y211N3J2dHpyeHF4dHY4NHo2dTlxZ2wyMjcyZmFrOHh4YWV4cg==]] type:message] map[attributes:[map[index:true key:bW9kdWxl value:YmFuaw==]] type:message]] gas_used:61487 gas_wanted:140000 info: log:[{"events":[{"type":"message","attributes":[{"key":"action","value":"send"},{"key":"sender","value":"darc16cmu7rvtzrxqxtv84z6u9qgl2272fak8xxaexr"},{"key":"module","value":"bank"}]},{"type":"transfer","attributes":[{"key":"recipient","value":"darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6"},{"key":"sender","value":"darc16cmu7rvtzrxqxtv84z6u9qgl2272fak8xxaexr"},{"key":"amount","value":"10udarc"}]}]}]]]]
+2021/12/03 19:52:32 Knstl transaction confirmation check total try:  9
+2021/12/03 19:52:32 Finished knstl transaction confirmation check
+2021/12/03 19:52:32 Complete knstl transaction: 1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89
+2021/12/03 19:52:32 Destination network hash: 1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89 Destination network completed true
+2021/12/03 19:52:32 transaction is updated in the DB: {ID:ObjectID("61a9f5fe61343df8c4bb5491") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash:0xfa7872988b029cdd852add00802c9fbebe8ae286eccee996cfe478171e24ff86 DestinationNetwork:knstl DestinationNetworkHash:1AF7CB6BF7BD05324A187A564A6209859377561EFFBDDBC152AFDE5138610B89 Amount:1e-05 Timestamp:0 SourceNetworkCompleted:true DestinationNetworkCompleted:true Completed:true CreatedAt:2021-12-03 19:48:30.754718 +0900 KST UpdatedAt:2021-12-03 19:52:32.828145 +0900 KST TxTryCount:0}
+2021/12/03 19:52:32 ###### Disbursing knstl funds for transaction: ObjectID("61a9f5fe61343df8c4bb5491") ######
+2021/12/03 19:52:32 *********** Unfinished tx: &{ObjectID("61a9f5fe61343df8c4bb5491") 0xB07EE31C906A57731D76dAA7902FDBF833abaB27 darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 bsc  knstl  1e-05 0 false false false 2021-12-03 19:48:30.754718 +0900 KST 2021-12-03 19:48:30.754718 +0900 KST 2}
+2021/12/03 20:00:09 BSC node connected: wss://apis.ankr.com/wss/f900f648fc1b4863a187019729056694/46656517d979f03a7491d00c05f6bfdd/binance/full/main
+2021/12/03 20:00:09 BSC: subscribed to [0x8ebC361536094fD5B4FFB8521E31900614C9F55D]
+2021/12/03 20:00:10 Konstellation: RPC Websocket connection established
+2021/12/03 20:00:10 Konstellation: Subscribed to tm.event='Tx' AND transfer.recipient = 'darc16cmu7rvtzrxqxtv84z6u9qgl2272fak8xxaexr'
+2021/12/03 20:00:10 ****************** Portal server started
+2021/12/03 20:00:15 ====== Get POST transaction request ======
+2021/12/03 20:00:15 POST request: {FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 FromNetwork:bsc ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 ToNetwork:knstl Amount:1e-05}
+2021/12/03 20:00:15 knstl unit decimal amount: 1000000
+2021/12/03 20:00:15 User transaction decimal amount: 0.00001
+2021/12/03 20:00:15 User transaction total knstl amount: 10
+2021/12/03 20:00:15 user transaction destination network knstl total amount: 10
+2021/12/03 20:00:15 knstl unit decimal amount: 1000000
+2021/12/03 20:00:15 User transaction decimal amount: 0
+2021/12/03 20:00:15 User transaction total knstl amount: 0
+2021/12/03 20:00:15 user transaction destination network knstl fee amount: 0
+2021/12/03 20:00:15 Checking if POST request is old request failed or in the process
+2021/12/03 20:00:15 Preparing requeset insertion into DB
+2021/12/03 20:00:15 ====== POST request is inserted in DB: {ID:ObjectID("61a9f8bf45fde2b0470807b6") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:00:15.303654 +0900 KST UpdatedAt:2021-12-03 20:00:15.303654 +0900 KST TxTryCount:0} ======
+ 
+2021/12/03 20:02:10 *********** queue front target: &{ID:ObjectID("61a9f8bf45fde2b0470807b6") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:00:15.303654 +0900 KST UpdatedAt:2021-12-03 20:00:15.303654 +0900 KST TxTryCount:0}
+2021/12/03 20:02:10 *********** Unfinished tx: &{ID:ObjectID("61a9f8bf45fde2b0470807b6") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:00:15.303654 +0900 KST UpdatedAt:2021-12-03 20:00:15.303654 +0900 KST TxTryCount:1}
+2021/12/03 20:04:10 *********** queue front target: &{ID:ObjectID("61a9f8bf45fde2b0470807b6") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:00:15.303654 +0900 KST UpdatedAt:2021-12-03 20:00:15.303654 +0900 KST TxTryCount:1}
+2021/12/03 20:04:10 *********** Unfinished tx: &{ID:ObjectID("61a9f8bf45fde2b0470807b6") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:00:15.303654 +0900 KST UpdatedAt:2021-12-03 20:00:15.303654 +0900 KST TxTryCount:2}
+2021/12/03 20:06:10 *********** queue front target: &{ID:ObjectID("61a9f8bf45fde2b0470807b6") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:00:15.303654 +0900 KST UpdatedAt:2021-12-03 20:00:15.303654 +0900 KST TxTryCount:2}
+2021/12/03 20:06:10 *********** Transaction &{ID:ObjectID("61a9f8bf45fde2b0470807b6") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:00:15.303654 +0900 KST UpdatedAt:2021-12-03 20:00:15.303654 +0900 KST TxTryCount:3} timeout!
+2021/12/03 20:18:23 BSC node connected: wss://apis.ankr.com/wss/f900f648fc1b4863a187019729056694/46656517d979f03a7491d00c05f6bfdd/binance/full/main
+2021/12/03 20:18:23 BSC: subscribed to [0x8ebC361536094fD5B4FFB8521E31900614C9F55D]
+2021/12/03 20:18:24 Konstellation: RPC Websocket connection established
+2021/12/03 20:18:24 Konstellation: Subscribed to tm.event='Tx' AND transfer.recipient = 'darc16cmu7rvtzrxqxtv84z6u9qgl2272fak8xxaexr'
+2021/12/03 20:18:24 ****************** Portal server started
+2021/12/03 20:18:28 ====== Get POST transaction request ======
+2021/12/03 20:18:28 POST request: {FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 FromNetwork:bsc ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 ToNetwork:knstl Amount:1e-05}
+2021/12/03 20:18:28 knstl unit decimal amount: 1000000
+2021/12/03 20:18:28 User transaction decimal amount: 0.00001
+2021/12/03 20:18:28 User transaction total knstl amount: 10
+2021/12/03 20:18:28 user transaction destination network knstl total amount: 10
+2021/12/03 20:18:28 knstl unit decimal amount: 1000000
+2021/12/03 20:18:28 User transaction decimal amount: 0
+2021/12/03 20:18:28 User transaction total knstl amount: 0
+2021/12/03 20:18:28 user transaction destination network knstl fee amount: 0
+2021/12/03 20:18:28 Checking if POST request is old request failed or in the process
+2021/12/03 20:18:28 Preparing requeset insertion into DB
+2021/12/03 20:18:28 ====== POST request is inserted in DB: {ID:ObjectID("61a9fd046097c8c998bc9e85") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:18:28.209305 +0900 KST UpdatedAt:2021-12-03 20:18:28.209305 +0900 KST TxTryCount:0} ======
+ 
+2021/12/03 20:20:24 *********** queue front target: &{ID:ObjectID("61a9fd046097c8c998bc9e85") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:18:28.209305 +0900 KST UpdatedAt:2021-12-03 20:18:28.209305 +0900 KST TxTryCount:0}
+2021/12/03 20:20:24 *********** Unfinished tx: &{ID:ObjectID("61a9fd046097c8c998bc9e85") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:18:28.209305 +0900 KST UpdatedAt:2021-12-03 20:18:28.209305 +0900 KST TxTryCount:1}
+2021/12/03 20:22:26 *********** queue front target: &{ID:ObjectID("61a9fd046097c8c998bc9e85") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:18:28.209305 +0900 KST UpdatedAt:2021-12-03 20:18:28.209305 +0900 KST TxTryCount:1}
+2021/12/03 20:22:26 *********** Unfinished tx: &{ID:ObjectID("61a9fd046097c8c998bc9e85") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:18:28.209305 +0900 KST UpdatedAt:2021-12-03 20:18:28.209305 +0900 KST TxTryCount:2}
+2021/12/03 20:24:26 *********** queue front target: &{ID:ObjectID("61a9fd046097c8c998bc9e85") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:18:28.209305 +0900 KST UpdatedAt:2021-12-03 20:18:28.209305 +0900 KST TxTryCount:2}
+2021/12/03 20:24:26 *********** Transaction &{ID:ObjectID("61a9fd046097c8c998bc9e85") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:18:28.209305 +0900 KST UpdatedAt:2021-12-03 20:18:28.209305 +0900 KST TxTryCount:3} timeout!
+2021/12/03 20:24:26 amount in DB: 1e-05
+2021/12/03 20:32:58 BSC node connected: wss://apis.ankr.com/wss/f900f648fc1b4863a187019729056694/46656517d979f03a7491d00c05f6bfdd/binance/full/main
+2021/12/03 20:32:59 BSC: subscribed to [0x8ebC361536094fD5B4FFB8521E31900614C9F55D]
+2021/12/03 20:33:00 Konstellation: RPC Websocket connection established
+2021/12/03 20:33:00 Konstellation: Subscribed to tm.event='Tx' AND transfer.recipient = 'darc16cmu7rvtzrxqxtv84z6u9qgl2272fak8xxaexr'
+2021/12/03 20:33:00 ****************** Portal server started
+2021/12/03 20:33:03 ====== Get POST transaction request ======
+2021/12/03 20:33:03 POST request: {FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 FromNetwork:bsc ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 ToNetwork:knstl Amount:1e-05}
+2021/12/03 20:33:03 knstl unit decimal amount: 1000000
+2021/12/03 20:33:03 User transaction decimal amount: 0.00001
+2021/12/03 20:33:03 User transaction total knstl amount: 10
+2021/12/03 20:33:03 user transaction destination network knstl total amount: 10
+2021/12/03 20:33:03 knstl unit decimal amount: 1000000
+2021/12/03 20:33:03 User transaction decimal amount: 0
+2021/12/03 20:33:03 User transaction total knstl amount: 0
+2021/12/03 20:33:03 user transaction destination network knstl fee amount: 0
+2021/12/03 20:33:03 Checking if POST request is old request failed or in the process
+2021/12/03 20:33:03 Preparing requeset insertion into DB
+2021/12/03 20:33:03 ====== POST request is inserted in DB: {ID:ObjectID("61aa006fb9f408fde33aa9a9") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:33:03.798727 +0900 KST UpdatedAt:2021-12-03 20:33:03.798727 +0900 KST TxTryCount:0} ======
+ 
+2021/12/03 20:35:00 *********** queue front target: &{ID:ObjectID("61aa006fb9f408fde33aa9a9") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:33:03.798727 +0900 KST UpdatedAt:2021-12-03 20:33:03.798727 +0900 KST TxTryCount:0}
+2021/12/03 20:35:00 *********** Unfinished tx: &{ID:ObjectID("61aa006fb9f408fde33aa9a9") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:33:03.798727 +0900 KST UpdatedAt:2021-12-03 20:33:03.798727 +0900 KST TxTryCount:1}
+2021/12/03 20:37:00 *********** queue front target: &{ID:ObjectID("61aa006fb9f408fde33aa9a9") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:33:03.798727 +0900 KST UpdatedAt:2021-12-03 20:33:03.798727 +0900 KST TxTryCount:1}
+2021/12/03 20:37:00 *********** Unfinished tx: &{ID:ObjectID("61aa006fb9f408fde33aa9a9") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:33:03.798727 +0900 KST UpdatedAt:2021-12-03 20:33:03.798727 +0900 KST TxTryCount:2}
+2021/12/03 20:39:00 *********** queue front target: &{ID:ObjectID("61aa006fb9f408fde33aa9a9") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:33:03.798727 +0900 KST UpdatedAt:2021-12-03 20:33:03.798727 +0900 KST TxTryCount:2}
+2021/12/03 20:39:00 *********** Transaction &{ID:ObjectID("61aa006fb9f408fde33aa9a9") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:33:03.798727 +0900 KST UpdatedAt:2021-12-03 20:33:03.798727 +0900 KST TxTryCount:3} timeout!
+2021/12/03 20:39:22 ====== Get POST transaction request ======
+2021/12/03 20:39:22 POST request: {FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 FromNetwork:bsc ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 ToNetwork:knstl Amount:1e-05}
+2021/12/03 20:39:22 knstl unit decimal amount: 1000000
+2021/12/03 20:39:22 User transaction decimal amount: 0.00001
+2021/12/03 20:39:22 User transaction total knstl amount: 10
+2021/12/03 20:39:22 user transaction destination network knstl total amount: 10
+2021/12/03 20:39:22 knstl unit decimal amount: 1000000
+2021/12/03 20:39:22 User transaction decimal amount: 0
+2021/12/03 20:39:22 User transaction total knstl amount: 0
+2021/12/03 20:39:22 user transaction destination network knstl fee amount: 0
+2021/12/03 20:39:22 Checking if POST request is old request failed or in the process
+2021/12/03 20:39:22 Preparing requeset insertion into DB
+2021/12/03 20:39:22 ====== POST request is inserted in DB: {ID:ObjectID("61aa01eab9f408fde33aa9aa") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:39:22.472718 +0900 KST UpdatedAt:2021-12-03 20:39:22.472718 +0900 KST TxTryCount:0} ======
+ 
+2021/12/03 20:41:00 *********** queue front target: &{ID:ObjectID("61aa01eab9f408fde33aa9aa") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:39:22.472718 +0900 KST UpdatedAt:2021-12-03 20:39:22.472718 +0900 KST TxTryCount:0}
+2021/12/03 20:41:00 *********** Unfinished tx: &{ID:ObjectID("61aa01eab9f408fde33aa9aa") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:39:22.472718 +0900 KST UpdatedAt:2021-12-03 20:39:22.472718 +0900 KST TxTryCount:1}
+2021/12/03 20:43:00 *********** queue front target: &{ID:ObjectID("61aa01eab9f408fde33aa9aa") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:39:22.472718 +0900 KST UpdatedAt:2021-12-03 20:39:22.472718 +0900 KST TxTryCount:1}
+2021/12/03 20:43:00 *********** Unfinished tx: &{ID:ObjectID("61aa01eab9f408fde33aa9aa") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:39:22.472718 +0900 KST UpdatedAt:2021-12-03 20:39:22.472718 +0900 KST TxTryCount:2}
+2021/12/03 20:44:41 BSC node connected: wss://apis.ankr.com/wss/f14c2e372e73408f9ef8927d2337ded0/46656517d979f03a7491d00c05f6bfdd/binance/full/test
+2021/12/03 20:44:42 BSC: subscribed to [0x3D0D109BD52b499048dC9f49E700192cF08a2CFF]
+2021/12/03 20:44:42 Konstellation: RPC Websocket connection established
+2021/12/03 20:44:42 Konstellation: Subscribed to tm.event='Tx' AND transfer.recipient = 'darc1rzdt9wrzwv3x7vv6f7xpyaqqgf3lt6phptqtsx'
+2021/12/03 20:44:42 ****************** Portal server started
+2021/12/03 20:45:00 ====== Get POST transaction request ======
+2021/12/03 20:45:00 POST request: {FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 FromNetwork:bsc ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 ToNetwork:knstl Amount:1e-05}
+2021/12/03 20:45:00 knstl unit decimal amount: 1000000
+2021/12/03 20:45:00 User transaction decimal amount: 0.00001
+2021/12/03 20:45:00 User transaction total knstl amount: 10
+2021/12/03 20:45:00 user transaction destination network knstl total amount: 10
+2021/12/03 20:45:00 knstl unit decimal amount: 1000000
+2021/12/03 20:45:00 User transaction decimal amount: 0
+2021/12/03 20:45:00 User transaction total knstl amount: 0
+2021/12/03 20:45:00 user transaction destination network knstl fee amount: 0
+2021/12/03 20:45:00 Checking if POST request is old request failed or in the process
+2021/12/03 20:45:01 Preparing requeset insertion into DB
+2021/12/03 20:45:01 ====== POST request is inserted in DB: {ID:ObjectID("61aa033d096a41c9e34f600a") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:45:01.002985 +0900 KST UpdatedAt:2021-12-03 20:45:01.002985 +0900 KST TxTryCount:0} ======
+ 
+2021/12/03 20:45:43 amount raw:  10000000000000
+2021/12/03 20:45:43 Bsc amount float conversion:  10000000000000
+2021/12/03 20:45:43 Bsc amount decimal conversion:  10000000000000
+2021/12/03 20:45:43 Bsc basic unit amount decimal conversion:  1000000000000000000
+2021/12/03 20:45:43 ###### Get source bsc transaction data: {0x3D0D109BD52b499048dC9f49E700192cF08a2CFF [0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef 0x000000000000000000000000b07ee31c906a57731d76daa7902fdbf833abab27 0x000000000000000000000000825e69c7eb4041437e1f0951aa50717b25de8ac2] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 24 78 114 160 0] 14650266 0x79e02d298a5984e87b2ba646c92c00c760e5e341b4f12a2ab06722d385288632 0 0x218633f2dcca582a2635c5a567bbe5b85aca30edf18c1482b754fd68d8761c37 0 false} , amount: 0.00001 ######
+2021/12/03 20:46:42 *********** queue front target: &{ID:ObjectID("61aa033d096a41c9e34f600a") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:45:01.002985 +0900 KST UpdatedAt:2021-12-03 20:45:01.002985 +0900 KST TxTryCount:0}
+2021/12/03 20:46:42 *********** bsc tx status: {Address:0x3D0D109BD52b499048dC9f49E700192cF08a2CFF Topics:[0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef 0x000000000000000000000000b07ee31c906a57731d76daa7902fdbf833abab27 0x000000000000000000000000825e69c7eb4041437e1f0951aa50717b25de8ac2] Data:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 24 78 114 160 0] BlockNumber:14650266 TxHash:0x79e02d298a5984e87b2ba646c92c00c760e5e341b4f12a2ab06722d385288632 TxIndex:0 BlockHash:0x218633f2dcca582a2635c5a567bbe5b85aca30edf18c1482b754fd68d8761c37 Index:0 Removed:false}
+2021/12/03 20:46:42 amount raw:  10000000000000
+2021/12/03 20:46:42 Bsc amount float conversion:  10000000000000
+2021/12/03 20:46:42 Bsc amount decimal conversion:  10000000000000
+2021/12/03 20:46:42 Bsc basic unit amount decimal conversion:  1000000000000000000
+2021/12/03 20:46:42 ********** amountBscTransaction 0.00001 targetAmount 0.00001 equal: true
+2021/12/03 20:46:42 ###### Get source bsc transaction data: &{Address:0x3D0D109BD52b499048dC9f49E700192cF08a2CFF Topics:[0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef 0x000000000000000000000000b07ee31c906a57731d76daa7902fdbf833abab27 0x000000000000000000000000825e69c7eb4041437e1f0951aa50717b25de8ac2] Data:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 24 78 114 160 0] BlockNumber:14650266 TxHash:0x79e02d298a5984e87b2ba646c92c00c760e5e341b4f12a2ab06722d385288632 TxIndex:0 BlockHash:0x218633f2dcca582a2635c5a567bbe5b85aca30edf18c1482b754fd68d8761c37 Index:0 Removed:false} ######
+2021/12/03 20:46:42 amount raw:  10000000000000
+2021/12/03 20:46:42 Bsc amount float conversion:  10000000000000
+2021/12/03 20:46:42 Bsc amount decimal conversion:  10000000000000
+2021/12/03 20:46:42 Bsc basic unit amount decimal conversion:  1000000000000000000
+2021/12/03 20:46:42 from address:  0xB07EE31C906A57731D76dAA7902FDBF833abaB27
+2021/12/03 20:46:42 Checking if address in POST request is blacklist address
+2021/12/03 20:46:42 Bsc transaction data to search in the DB: map[amount:0.00001 created_at:2021-12-03 20:45:01.002985 +0900 KST destination_network:knstl destination_network_completed:false from_address:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 source_network:bsc source_network_completed:false to_address:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6]
+2021/12/03 20:46:42 Bsc transaction POST request is found in DB: {ID:ObjectID("61aa033d096a41c9e34f600a") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:45:01.002985 +0900 KST UpdatedAt:2021-12-03 20:45:01.002985 +0900 KST TxTryCount:0}
+2021/12/03 20:46:42 Bsc transaction data is updated in the DB: {ID:ObjectID("61aa033d096a41c9e34f600a") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash: DestinationNetwork:knstl DestinationNetworkHash: Amount:1e-05 Timestamp:0 SourceNetworkCompleted:false DestinationNetworkCompleted:false Completed:false CreatedAt:2021-12-03 20:45:01.002985 +0900 KST UpdatedAt:2021-12-03 20:45:01.002985 +0900 KST TxTryCount:0}
+2021/12/03 20:46:42 The bsc source network operation is finished. $$$$$$
+2021/12/03 20:46:42 Knstl token conversion start. Destination network operation. $$$$$$
+2021/12/03 20:46:42 Knstl toaddress darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 Knstl AccAddressFromBech with toaddress C9B59A1831041B38F3A10B2CCD2C50685C97A77F
+2021/12/03 20:46:42 Knstl swapAddr(KNSTL_CORPORATE_ADDR) darc1rzdt9wrzwv3x7vv6f7xpyaqqgf3lt6phptqtsx Knstl AccAddressFromBech with swapAddr 189AB2B86273226F319A4F8C1274004263F5E837
+2021/12/03 20:46:43 knstlGrpcConn 13.37.215.18:9090 is connected
+2021/12/03 20:46:44 knstl unit decimal amount: 1000000
+2021/12/03 20:46:44 User transaction decimal amount: 0.00001
+2021/12/03 20:46:44 User transaction total knstl amount: 10
+2021/12/03 20:46:44 user transaction total knstl amount: 10
+2021/12/03 20:46:44 Knstl tx msg: from_address:"darc1rzdt9wrzwv3x7vv6f7xpyaqqgf3lt6phptqtsx" to_address:"darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6" amount:<denom:"udarc" amount:"10" > 
+2021/12/03 20:46:44 feepayer: 189AB2B86273226F319A4F8C1274004263F5E837
+2021/12/03 20:46:44 fee: 1udarc
+2021/12/03 20:46:44 Knstl transaction response: {Code:0 Data: Log:[] Codespace: Hash:2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A}
+2021/12/03 20:46:44 Start knstl transaction confirmation check
+2021/12/03 20:46:44 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:45 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:45 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:45 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:45 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:45 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:45 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:46 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:46 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:46 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:46 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:46 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:46 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:47 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:47 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:47 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:47 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:47 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:47 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:48 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:48 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:48 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:48 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:48 KnstlResult: map[error:map[code:-32603 data:tx (2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A) not found message:Internal error] id:-1 jsonrpc:2.0]
+2021/12/03 20:46:48 knstlTxUrl: http://13.37.215.18:26657/tx?hash=0x2790876c2b470f97379c77b4d3b821d09b58c4a31fe978ad129d7ab57b9d783a
+2021/12/03 20:46:48 KnstlResult: map[id:-1 jsonrpc:2.0 result:map[hash:2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A height:834548 index:0 tx:CooBCocBChwvY29zbW9zLmJhbmsudjFiZXRhMS5Nc2dTZW5kEmcKK2RhcmMxcnpkdDl3cnp3djN4N3Z2NmY3eHB5YXFxZ2YzbHQ2cGhwdHF0c3gSK2RhcmMxZXg2ZTV4cDNxc2RuM3VhcHB2a3Y2dHpzZHB3ZjBmbWxwYWhmZzYaCwoFdWRhcmMSAjEwEmUKUQpGCh8vY29zbW9zLmNyeXB0by5zZWNwMjU2azEuUHViS2V5EiMKIQIi+WQFgGQkY1Nm/oHGkYfjOtMI+CRuhJ9Ub9I6b+cgTBIECgIIARjoARIQCgoKBXVkYXJjEgExEODFCBpAuMPN9mZGl/0TrPkJJdAQyDLPWhbLvugMRVyEEMmv4bYtY/1LSyF3YDUEeeQLHfvJ2U0h0Lg9Xy6pTkAm6d03Sw== tx_result:map[code:0 codespace: data:CgYKBHNlbmQ= events:[map[attributes:[map[index:true key:cmVjaXBpZW50 value:ZGFyYzE3eHBmdmFrbTJhbWc5NjJ5bHM2Zjg0ejNrZWxsOGM1bDBjaDN4Mg==] map[index:true key:c2VuZGVy value:ZGFyYzFyemR0OXdyend2M3g3dnY2Zjd4cHlhcXFnZjNsdDZwaHB0cXRzeA==] map[index:true key:YW1vdW50 value:MXVkYXJj]] type:transfer] map[attributes:[map[index:true key:c2VuZGVy value:ZGFyYzFyemR0OXdyend2M3g3dnY2Zjd4cHlhcXFnZjNsdDZwaHB0cXRzeA==]] type:message] map[attributes:[map[index:true key:YWN0aW9u value:c2VuZA==]] type:message] map[attributes:[map[index:true key:cmVjaXBpZW50 value:ZGFyYzFleDZlNXhwM3FzZG4zdWFwcHZrdjZ0enNkcHdmMGZtbHBhaGZnNg==] map[index:true key:c2VuZGVy value:ZGFyYzFyemR0OXdyend2M3g3dnY2Zjd4cHlhcXFnZjNsdDZwaHB0cXRzeA==] map[index:true key:YW1vdW50 value:MTB1ZGFyYw==]] type:transfer] map[attributes:[map[index:true key:c2VuZGVy value:ZGFyYzFyemR0OXdyend2M3g3dnY2Zjd4cHlhcXFnZjNsdDZwaHB0cXRzeA==]] type:message] map[attributes:[map[index:true key:bW9kdWxl value:YmFuaw==]] type:message]] gas_used:68762 gas_wanted:140000 info: log:[{"events":[{"type":"message","attributes":[{"key":"action","value":"send"},{"key":"sender","value":"darc1rzdt9wrzwv3x7vv6f7xpyaqqgf3lt6phptqtsx"},{"key":"module","value":"bank"}]},{"type":"transfer","attributes":[{"key":"recipient","value":"darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6"},{"key":"sender","value":"darc1rzdt9wrzwv3x7vv6f7xpyaqqgf3lt6phptqtsx"},{"key":"amount","value":"10udarc"}]}]}]]]]
+2021/12/03 20:46:48 Knstl transaction confirmation check total try:  13
+2021/12/03 20:46:48 Finished knstl transaction confirmation check
+2021/12/03 20:46:48 Complete knstl transaction: 2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A
+2021/12/03 20:46:48 Destination network hash: 2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A Destination network completed true
+2021/12/03 20:46:48 transaction is updated in the DB: {ID:ObjectID("61aa033d096a41c9e34f600a") FromAddress:0xB07EE31C906A57731D76dAA7902FDBF833abaB27 ToAddress:darc1ex6e5xp3qsdn3uappvkv6tzsdpwf0fmlpahfg6 SourceNetwork:bsc SourceNetworkHash:0x79e02d298a5984e87b2ba646c92c00c760e5e341b4f12a2ab06722d385288632 DestinationNetwork:knstl DestinationNetworkHash:2790876C2B470F97379C77B4D3B821D09B58C4A31FE978AD129D7AB57B9D783A Amount:1e-05 Timestamp:0 SourceNetworkCompleted:true DestinationNetworkCompleted:true Completed:true CreatedAt:2021-12-03 20:45:01.002985 +0900 KST UpdatedAt:2021-12-03 20:46:48.875934 +0900 KST TxTryCount:0}
+2021/12/03 20:46:48 ###### Disbursing knstl funds for transaction: ObjectID("61aa033d096a41c9e34f600a") ######

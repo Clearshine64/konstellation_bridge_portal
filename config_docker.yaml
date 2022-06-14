@@ -1,0 +1,35 @@
+runtime: go116
+service: portal-dev
+
+env_variables:
+  # application configs
+  APP_ENV: docker
+  APP_NAME: Portal Service
+  APP_URL: http://0.0.0.0:1232
+  APP_DEBUG: 1
+  APP_SERVICE: portal-local # auth-{env(local,dev,preprod,prod)}
+  APP_VERSION: v1.* # deploying git tag version 
+  APP_HASH: # deploying git commit hash
+
+  TLS_ENABLE: false
+  TLS_CERT_LOCATION: "cert/certificate.crt"
+  TLS_PRIV_KEY_LOCATION: "cert/private.key"
+  PORT: 1489
+
+  MONGO_HOST: portal_mongo
+  MONGO_PORT: 27017
+  MONGO_DATABASE: portal
+  MONGO_USER: root
+  MONGO_PASS: example
+
+  NETWORK: testnet
+
+  BSC_TRANSACTION_API_URL: https://api-testnet.bscscan.com/api?module=transaction&action=gettxreceiptstatus&txhash=%s
+  BSC_RPC: wss://apis.ankr.com/wss/f14c2e372e73408f9ef8927d2337ded0/46656517d979f03a7491d00c05f6bfdd/binance/full/test
+  BSC_CORPORATE_ADDR: 0x825e69c7eb4041437e1f0951aa50717b25de8ac2
+  BSC_CORPORATE_ADDR_PRIV_KEY: 5b555e493b2a6ad217da197caadc53d958267681f724d4b8c4edb6c82ad7155d
+  BSC_BEP20_CONTRACT_ADDR: 0x3d0d109bd52b499048dc9f49e700192cf08a2cff
+  KNSTL_GRPC: 13.37.215.18:9090
+  KNSTL_RPC: http://13.37.215.18:26657
+  KNSTL_CORPORATE_ADDR: darc1rzdt9wrzwv3x7vv6f7xpyaqqgf3lt6phptqtsx
+  KNSTL_SWAP_ADDR_MNEMONIC: disorder squirrel cage garlic oyster leaf segment casual siren shiver lecture among either wool improve head thunder walnut cram force crystal advice slab sail

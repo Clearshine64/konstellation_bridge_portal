@@ -1,0 +1,234 @@
+pagination:
+  next_key: null
+  total: "10"
+validators:
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: HZQ5bfB3fKFap/sPJc2pBeg5YHEQGYhubOB1KjrvpBg=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node4
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper1zhdr6rulr45vmve6k4nq400yzwca549cyuuud7
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: pWmoq/LlSVO2oNa+eSNb6Z7i30+d6bNthvdYBZhQj2w=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node13
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper19sr2l8w5ht5xd0f5n3p0tv8dhws2fsfwn6ramu
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: N5Na2KN1lTuIHIYDrrjIWsYL4JOqFCtIKAg8g8zI6Uo=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node14
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper1fcyf6zrn60nuxaacqlcla884mqtxzu84y5w39v
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: iAetIZLmVNCPMHRbUFuhXnYBeJTDRFnSYaJcHYPcKMk=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node2
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper1sehh6z74x04y0rzmfhn0gw7z9jl7c3a95hqgd8
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: 7HD4trM1PZ7dsVveRQHYAaigPRzeMfnbPJgHvS2TO2s=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node5
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper1425ps0w00hxy0f0ykvvalq4dpdztn9sqtchktl
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: zfcSpCy6S5Ea7rXOcpPaZCOy+xRhs2n7w0dW2bS4yZ4=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node12
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper1kv4t2fzygpdsgra0z4fc07fu9x9jxpu8cv0v2n
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: wuGaHSsN/RWoqMBbTPo4wFdCWTAoWiOCrWWEi5a/GqE=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node11
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper1k067flzylvev4tqvu5mxhtpd5n3kxcnlhg9499
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: 2amM1WXtVwfs1iX+r12ygreW6rvTlcIsFEorQrX/MyE=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node1
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper16n226c7p4fkmrgxjsclln38qthulggmr9zx3sq
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: swsvrFG6osf4keUJCJUHiy/cKu1SMyhuWWecGSv8pjI=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node3
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper16cmu7rvtzrxqxtv84z6u9qgl2272fak8hzd72t
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
+  - commission:
+      commission_rates:
+        max_change_rate: "1.000000000000000000"
+        max_rate: "1.000000000000000000"
+        rate: "1.000000000000000000"
+      update_time: "2021-10-11T07:34:10.373415Z"
+    consensus_pubkey:
+      '@type': /cosmos.crypto.ed25519.PubKey
+      key: SXDbXEUI0qIRbgFDQ96vRO9I6hfzHy1yL9hvabb7gLw=
+    delegator_shares: "1000000000.000000000000000000"
+    description:
+      details: ""
+      identity: ""
+      moniker: node10
+      security_contact: ""
+      website: ""
+    jailed: false
+    min_self_delegation: "1"
+    operator_address: darcvaloper1u4l2ml7x5jnvx3lkqg5n834yclp7uvv6tky2yj
+    status: BOND_STATUS_BONDED
+    tokens: "1000000000"
+    unbonding_height: "0"
+    unbonding_time: "1970-01-01T00:00:00Z"
